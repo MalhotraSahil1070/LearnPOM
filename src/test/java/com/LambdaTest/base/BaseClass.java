@@ -3,6 +3,8 @@ package com.LambdaTest.base;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -53,6 +55,8 @@ public class BaseClass {
 		String filePath = System.getProperty("user.dir")+"//TestReport//TestReport.html";
 		extentHtmlReporter = new ExtentSparkReporter(new File(filePath));
 		report.attachReporter(extentHtmlReporter);
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	
 		
 		
 		WebDriverManager.chromedriver().setup();

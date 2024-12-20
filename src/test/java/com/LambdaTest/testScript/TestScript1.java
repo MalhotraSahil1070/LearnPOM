@@ -17,7 +17,7 @@ public class TestScript1 extends  BaseClass {
         // Create instance of ExcelReader and provide the Excel file path
 		ReadExcelFile excel = new ReadExcelFile();
         excel.setSheetByName("Sheet1"); // Set the sheet name where your data is stored
-       
+         
         int rowCount = excel.getRowCount();
         int colCount = excel.getColumnCount(0);
         
@@ -42,7 +42,7 @@ public class TestScript1 extends  BaseClass {
 	  public void VerifyPageTitle() {
 		 
 		  
-		  Assert.assertEquals("QASelenium Grid Online | Run Selenium Test On Cloud", loginPageMethods.getPageTitle());
+		  Assert.assertEquals("Selenium Grid Online | Run Selenium Test On Cloud", loginPageMethods.getPageTitle());
 		  
 	  }
 	 
@@ -50,7 +50,7 @@ public class TestScript1 extends  BaseClass {
 	  public void VerifyPageHeading() {
 		 
 		  
-		  Assert.assertEquals("QAForm Demo", loginPageMethods.getPageHeading());
+		  Assert.assertEquals("Form Demo", loginPageMethods.getPageHeading());
 		  
 	  }
 	 
@@ -58,7 +58,7 @@ public class TestScript1 extends  BaseClass {
 	  public void VerifyFormHeading() {
 		 
 		  
-		  Assert.assertEquals("QAInput form validations", loginPageMethods.getFormHeading());
+		  Assert.assertEquals("Input form validations", loginPageMethods.getFormHeading());
 		  
 	  }
 	

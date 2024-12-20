@@ -21,7 +21,7 @@ public class ReadExcelFile {
 	{
 		try 
 		{
-			 inputStream = new FileInputStream("C:\\Users\\HP\\deepak_workspace\\LearnPOM\\src\\test\\resources\\TestData\\FormData.xlsx");
+			 inputStream = new FileInputStream("C:\\Selenium\\LearnPOM\\src\\test\\resources\\TestData\\FormData.xlsx");
 			 workbook = new XSSFWorkbook(inputStream);
 			 formatter = new DataFormatter();
 		}

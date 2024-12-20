@@ -9,6 +9,7 @@
           <include name="openBrowser"/>
           <include name="VerifyFormHeading"/>
           <include name="setTestResult"/>
+          <include name="VerifySubmitForm"/>
           <include name="VerifyPageTitle"/>
           <include name="generateReport"/>
           <include name="VerifyPageHeading"/>

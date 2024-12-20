@@ -8,7 +8,7 @@ public class ReadPropFile {
 	
 Properties prop;
 	
-	String filePath = "C:\\Users\\HP\\deepak_workspace\\LearnPOM\\src\\test\\resources\\Configs\\Configurations.properties";
+	String filePath = "C:\\Selenium\\LearnPOM\\src\\test\\resources\\Configs\\Configurations.properties";
 	
 	public ReadPropFile() throws IOException
 	
